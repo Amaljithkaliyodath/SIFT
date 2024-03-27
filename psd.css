@@ -1,0 +1,218 @@
+ html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .untill{
+  margin-left: 10%;
+  }
+  .ron{
+  font-size: 40px;
+
+  }
+  
+  .home{
+    font-size: 20px;
+  }
+  .about{
+    font-size: 20px;
+  }
+  .excerpt{
+    font-size: 20px;
+  }
+  .contact{
+    font-size: 20px;
+  }
+
+  .next{
+    margin-left: 30%;
+  }
+.sift{
+    font-weight: 800;
+    font-size:50px;
+    text-align: center;
+}
+.rewads{
+  
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.cash{
+    font-weight: 800;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.designed{
+    margin-top: 3%;
+    text-align: center;
+
+}
+
+.button1 { 
+    background-color:gray; 
+    color: #ffffff; 
+    
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+   margin-left: 43%;
+  } 
+  
+  .earn{
+    
+    margin-top: 5%;
+    text-align: center;
+  }
+  .enjoy{
+   
+    margin-top: 5%;
+    text-align: center;
+  }
+ .Chase{
+    text-align: center;
+ }
+
+ 
+ 
+ 
+
+
+
+.button2 { 
+  background-color:gray; 
+  color: #ffffff; 
+  
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+ margin-left: 40%;
+ 
+ margin-top: 4%;
+}  
+
+.asdf{
+  margin-top: 5%;
+  width: 100%;
+  margin-left: 17%;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+
+.niom{
+  margin-top: 5%;
+  max-width: 800px;
+  background: #fff;
+  width: 800px;
+  padding: 25px 40px 10px 40px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.niom form{
+  padding: 30px 0 0 0;
+}
+.niom form .form-row{
+  display: flex;
+  margin: 32px 0;
+}
+form .form-row .input-data{
+  width: 100%;
+  height: 40px;
+  margin: 0 20px;
+  position: relative;
+}
+form .form-row .textarea{
+  height: 70px;
+}
+.input-data input,
+.textarea textarea{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid rgba(0,0,0, 0.12);
+}
+.input-data input:focus ~ label, .textarea textarea:focus ~ label,
+.input-data input:valid ~ label, .textarea textarea:valid ~ label{
+  transform: translateY(-20px);
+  font-size: 14px;
+  
+.textarea textarea{
+  resize: none;
+  padding-top: 10px;
+}
+.input-data label{
+  position: absolute;
+  pointer-events: none;
+  bottom: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.textarea label{
+  width: 100%;
+  bottom: 40px;
+  background: #fff;
+}
+.input-data .underline{
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+}
+.input-data .underline:before{
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: #3498db;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before,
+.textarea textarea:focus ~ .underline:before,
+.textarea textarea:valid ~ .underline:before{
+  transform: scale(1);
+}
+
+
+
+
+@media (max-width: 700px) {
+  .niom .text{
+    font-size: 30px;
+  }
+  .niom form{
+    padding: 10px 0 0 0;
+  }
+  .niom form .form-row{
+    display: block;
+  }
+  form .form-row .input-data{
+    margin: 35px 0!important;
+  }
+  
+}}
+
+.button3 { 
+  background-color:gray; 
+  color: #ffffff; 
+  
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+margin-top: 5%;
+ 
+
+}  
+
+
+
+.may{
+       text-align: center;   
+margin-top: 15%;
+}
